@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000">
+
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/flower"
+        android:padding="10dp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="190dp"
+        android:layout_height="150dp"
+        android:text="A, b, c, d, e, f,g , h, i, j, k, l,m,
+n, o, p, q, r, s, t,…v, w, x, y, z;
+guess what is missing
+ – it’s ‘U’ –
+I Miss U My Love.
+ Happy birthday!"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textColor="#FF9800"
+        android:background="#0b8e63"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eduard Cozma"
+        android:textColor="#FF9800"
+        android:background="#0b8e63"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps"/>
+</RelativeLayout>

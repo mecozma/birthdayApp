@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BirthdayApp</string>
+    <string name="img_description">Sunflower</string>
+    <string name="greeting">A, b, c, d, e, f,g , h, i, j, k, l,m,
+                            n, o, p, q, r, s, t,…v, w, x, y, z;
+                            guess what is missing
+                            – it’s ‘U’ –
+                            I Miss U My Love.
+                             Happy birthday!</string>
+    <string name="name">Eduard Cozma</string>
+</resources>

@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:fillViewport="false">
+    android:fillViewport="false"
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -14,23 +14,20 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="15dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="80dp"
             android:contentDescription="@string/img_description"
             android:padding="10dp"
-            android:scaleType="centerInside"
             android:src="@drawable/flower" />
 
         <TextView
-            android:id="@+id/title_text_view"
-            android:layout_width="190dp"
+
+            android:layout_width="185dp"
             android:layout_height="130dp"
             android:layout_alignParentRight="true"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="160dp"
+            android:layout_marginTop="205dp"
             android:background="@color/greenBackground"
             android:fontFamily="sans-serif-light"
             android:padding="10dp"
@@ -40,6 +37,7 @@
             android:textSize="15sp" />
 
         <TextView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -49,5 +47,8 @@
             android:textAlignment="center"
             android:textColor="@color/whiteText"
             android:textSize="20sp" />
+
+
+
     </RelativeLayout>
 </ScrollView>

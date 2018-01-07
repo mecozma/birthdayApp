@@ -9,40 +9,36 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#000"
+        android:background="@color/background"
         tools:context=".MainActivity">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="80dp"
+            android:layout_centerHorizontal="@bool/bool_true"
+            android:layout_marginBottom="@dimen/marginB"
             android:contentDescription="@string/img_description"
-            android:padding="10dp"
+            android:padding="@dimen/padding_Img"
             android:src="@drawable/flower" />
 
         <TextView
-
-            android:layout_width="185dp"
-            android:layout_height="130dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="205dp"
+            style="@style/first_textview"
+            android:layout_width="@dimen/textview_width"
+            android:layout_height="@dimen/textview_height"
+            android:layout_alignParentRight="@bool/bool_true"
+            android:layout_marginRight="@dimen/textview_marginRight"
+            android:layout_marginTop="@dimen/textview_marginTop"
             android:background="@color/greenBackground"
-            android:fontFamily="sans-serif-light"
-            android:padding="10dp"
+            android:padding="@dimen/textview_padding"
             android:text="@string/greeting"
-            android:textAlignment="center"
-            android:textColor="@color/whiteText"
-            android:textSize="15sp" />
+            android:textColor="@color/whiteText" />
 
         <TextView
-
+            style="@style/first_textview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_alignParentBottom="@bool/bool_true"
             android:background="@color/greenBackground"
-            android:fontFamily="sans-serif-smallcaps"
             android:text="@string/name"
             android:textAlignment="center"
             android:textColor="@color/whiteText"

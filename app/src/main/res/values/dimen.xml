@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginB">80dp</dimen>
+    <dimen name="padding_Img">10dp</dimen>
+    <dimen name="textview_width">185dp</dimen>
+    <dimen name="textview_height">130dp</dimen>
+    <dimen name="textview_marginRight">10dp</dimen>
+    <dimen name="textview_marginTop">205dp</dimen>
+    <dimen name="textview_padding">10dp</dimen>
+</resources>

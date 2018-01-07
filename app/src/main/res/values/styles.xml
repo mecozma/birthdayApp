@@ -8,5 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
 
     </style>
+    <style name="first_textview">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:fontWeight">200</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">15sp</item>
+    </style>
 
+    <style name="footer">
+
+    </style>
 </resources>

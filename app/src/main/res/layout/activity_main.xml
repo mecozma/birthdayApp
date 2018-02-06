@@ -4,13 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="false"
-    android:orientation="vertical">
+    tools:context=".MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/background"
-        tools:context=".MainActivity">
+        android:background="@color/background">
 
         <ImageView
             android:layout_width="match_parent"
@@ -42,7 +41,7 @@
             android:text="@string/name"
             android:textAlignment="center"
             android:textColor="@color/whiteText"
-            android:textSize="20sp" />
+            android:textSize="@dimen/footerTextSize" />
 
     </RelativeLayout>
 </ScrollView>
